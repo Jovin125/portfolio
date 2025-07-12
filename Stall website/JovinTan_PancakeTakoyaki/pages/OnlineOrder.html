@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Pancake Takoyaki Online Ordering</title>
+    <link rel="stylesheet" href="../css_styling/index.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img src="../images/logo.png" alt="store facebook logo">
+            <h1><i>Pancake</i> Takoyaki</h1>
+            <hr>
+            <h2>Nanyang Polytechnic Block P <br> South Canteen Level 2</h2>    
+        </header>
+
+        <nav>
+            <a href="../index.html">Homepage</a>
+            <a href="Menu.html">Menu</a>
+            <a href="AboutUs.html">About Us</a>
+            <a href="OnlineOrder.html">Online Ordering System</a>
+            <a href="MemberRegister.html">Member Registration</a>
+        </nav>
+
+        <section>
+            <h3>Online Order</h3>
+            <form method="post" action="https://jkorpela.fi/cgi-bin/echo.cgi">
+                <div class="flexcontent">
+                    <fieldset class="flexed">
+                        <legend>Ordering Pancakes</legend>
+                        <div>
+                            <label>Number of Pancakes:</label>
+                            <input type="number" name="pancake_num" min="0" value="0">
+                        </div>
+
+                        <div>
+                            <hr>
+                            <label>ingredients(Mix & match, default is plain - $1.00):</label><br>
+                            <input type="checkbox" name="pancake_options" value="O+">Butter & Sugar - (+$0.10) <br>
+                            <input type="checkbox" name="pancake_options" value="P">Peanut - (+$0.30)<br>
+                            <input type="checkbox" name="pancake_options" value="R">Red Bean - (+$0.30) <br>
+                            <input type="checkbox" name="pancake_options" value="C">Coconut - (+$0.30) <br>
+                            <input type="checkbox" name="pancake_options" value="N">Corn - (+$0.40) <br>
+                            <input type="checkbox" name="pancake_options" value="S">Cheese - (+$0.40) <br>
+                            <input type="checkbox" name="pancake_options" value="A">Nacho Cheese - (+$0.40) <br>
+                            <input type="checkbox" name="pancake_options" value="L">Chocolate - (+$0.50) <br>
+                            <input type="checkbox" name="pancake_options" value="E">Egg - (+$0.50) <br>
+                            <input type="checkbox" name="pancake_options" value="H">Chicken Ham - (+$0.60) <br>
+                            <input type="checkbox" name="pancake_options" value="F">Chicken Floss - (+$0.70) <br><br>
+
+                            <input type="checkbox" name="pancake_options" value="double">Optional(if only one ingredient chosen): Double the chosen ingredient
+                        </div>
+
+                        <div class="request">
+                            <hr>
+                            <label>Special requests or dietary preferences:</label><br>
+                            <textarea name="pancake_request" rows="3" cols="50"
+                            placeholder="Include any special requests or dietary needs"></textarea> 
+                        </div>
+                    </fieldset>
+
+                    <fieldset class="flexed">
+                        <legend>Ordering Takoyaki</legend>
+                        <div>
+                            <label>Number of Takoyaki:</label>
+                            <select name="numtakoyaki">
+                                <option value="0">Select number of Takoyaki(default is 0)</option>
+                                <option value="3">3 - ($2.00)</option>
+                                <option  value="4">4 - ($2.70) </option>
+                                <option  value="5">5 - ($3.40) </option>
+                                <option  value="6">6 - ($4.00) </option>
+                                <option  value="8">8 - ($5.40) </option>
+                                <option  value="10">10 - ($6.70) </option>
+                                <option  value="12">12 - ($8.00) </option>
+                                <option value="15">15 - ($10.00) </option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <hr>
+                            <label>Takoyaki Fillings(You can mix & match):</label><br>
+                            <input type="checkbox" name="takoyaki_fillings" value="Octopus">Octopus <br>
+                            <input type="checkbox" name="takoyaki_fillings" value="Prawn">Prawn <br>
+                            <input type="checkbox" name="takoyaki_fillings" value="Crab Meat">Crab Meat <br>
+                            <input type="checkbox" name="takoyaki_fillings" value="Chick Ham">Chick Ham <br>
+                        </div>
+
+                        <div>
+                            <hr>
+                            <label>Additional:</label><br>
+                            <input type="checkbox" name="takoyaki_toppings_add" value="BBQ">Tankatsu Sauce[BBQ Sauce] - ($0.10)<br>
+                            <input type="checkbox" name="takoyaki_toppings_add" value="Mayo">Mayonnaise[Mayo] - ($0.10)<br>
+                            <input type="checkbox" name="takoyaki_toppings_add" value="Fishflake">Hana Kastsuo[Fish Flakes] - ($0.10)<br>
+                        </div>
+
+                        <div class="request">
+                            <hr>
+                            <label>Special requests or dietary preferences:</label><br>
+                            <textarea name="takoyaki_request" rows="3" cols="50" 
+                            placeholder="Include any special requests or dietary needs"></textarea> 
+                        </div>
+                    </fieldset>
+                </div>
+                
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+            
+        <footer>
+            &copy;Copyright. All rights reserved. Pancake Takoyaki
+            <p>Link: <a href="https://www.facebook.com/Joyfulsup" target="_blank">
+            <img src="../images/facebook_logo.png" alt="logo for facebook">facebook Takojoy</a></p>
+            <p>Info: Open Mon-Fri 8.00am-6 30Pm<br>
+            Closed Sat, Sun and Holiday</p>  
+        </footer>
+    </main>
+</body>
