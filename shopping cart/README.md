@@ -1,14 +1,12 @@
-This is a school project for coding a shopping cart system. Which my teammate and I completed.
+This is a school project for coding a shopping cart system. Which my teammate and I completed. 
 
 I coded the first part of the program which includes setting up all the variables and the last part i coded for was the Cart page 
 
-Example images of parts i did:
+Example images of parts:
 
 <img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/a0bb3935-9c75-4161-9059-de99d23d639e" />
 
 <img width="1488" height="780" alt="image" src="https://github.com/user-attachments/assets/d80a3fa4-07e7-4c6d-b9e1-65080c081689" />
-
-<img width="1492" height="777" alt="image" src="https://github.com/user-attachments/assets/32e5accf-d527-4d42-b6dd-05b159707eba" />
 
 
 
